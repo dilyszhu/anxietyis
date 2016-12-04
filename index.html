@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>&num;anxietyis</title>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oswald:700|Merriweather:700,700italic' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Noticia+Text" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+ 		<link href="https://fonts.googleapis.com/css?family=Dosis:800|Fjalla+One|Londrina+Outline|Londrina+Shadow|Oswald|Yeseva+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/reset.css">
+	  	<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/untitled.css">
+
+</head>
+<body>
+<div >
+<header>
+	<p id="h1"><a href="index.html">&num;anxietyis</a></p>	
+	<nav>
+	<ul>
+		<li><a href="who.html">about me</a></li>
+		<li><a href="contact.html">contact</a></li>
+	</ul>
+	</nav>
+</header>
+</div>
+<!-- <div id=top></div>
+ -->
+<main>
+	<h2 id="ask" class="wrapper2">what does your <span></span><span id="anxiety"><div class="your">&num;</div><div class="your">a</div><div class="your">n</div><div class="your">x</div><div class="your">i</div><div class="your">e</div><div class="your">t</div><div class="your">y </div></span> look like? </h2>
+
+    <form name="message" id="comment-form" action="" class="wrapper2">
+        <textarea rows="1" cols="60" name="usermsg" type="text" id="comment" maxlength="250"/></textarea>
+        <input name="submitmsg" type="submit"  id="submitmsg" value="Submit" />
+        <p>(Please limit to 250 characters.)</p>
+    </form>
+</main>
+
+
+<div id="grey">
+
+	<div id="examples" class="wrapper2">
+	<ul id="comments">
+	</ul>
+	<!-- <ul>
+		<li><b>&commat;carrot: </b>It is a group of invisible monsters pulling you back saying, "Wait! That's scary!" Keeping you from being the person you want to be.</li>
+		<li><b>&commat;broccoli: </b>To be anxious is to be dragged down and boxed in by irrational fear. And when fear is on your mind, you can think of nothing else. It takes over your mind, body, and world.</li>
+		<li><b>&commat;lettuce: </b>It is as if there are a dozen other programs running on your computer at once. It distracts you and slows you down. It is a constant static of negative thoughts running through the back of your mind.</li>
+		<li><b>&commat;tomato: </b>It is voices constantly telling you all the ways in which something can go wrong.</li>
+	</ul> -->
+	</div>
+
+</div>
+
+<!-- <div id="pics">
+	<div class="wrapper2">
+		<img src="img/1.jpg"/>
+		<img src="img/2.jpg"/>
+		<img src="img/3.jpg"/>
+		<img src="img/2.jpg"/>
+		<img src="img/3.jpg"/>
+		<img src="img/1.jpg"/>
+	</div>
+</div> -->
+
+<footer>
+	<p>&copy; 2016 dilys zhu</p>
+</footer>
+
+<!-- DO NOT TOUCH
+ -->
+<script id="comment-template" type="text/x-handlebars-template">
+  <li data-id="{{commentId}}">
+    <span>{{likes}}</span>
+    <p>{{comment}}</p>
+    <i class="fa fa-trash delete"></i>
+    <i class="fa fa-heart-o like"></i>
+  </li>
+</script>
+
+  	<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  	<script src="js/handlebars-v4.0.5.js"></script>
+  	<script src="js/jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="js/untitled2.js"></script>
+
+</body>
+</html>
